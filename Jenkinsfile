@@ -42,7 +42,7 @@ pipeline{
         steps{
              
             sh """
-            echo "good morning divya"
+            echo "good morning darling divya"
             echo "$env"
             echo "$greeting"
             """
