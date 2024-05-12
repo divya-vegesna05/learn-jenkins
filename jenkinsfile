@@ -19,7 +19,7 @@ pipeline{
     {
         steps{
              
-            echo "good morning"
+            echo "good morning divya"
         }
     }
 }
