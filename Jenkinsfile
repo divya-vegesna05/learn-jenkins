@@ -28,7 +28,7 @@ pipeline{
              
             sh """
             echo "good morning divya"
-            echo env
+            echo $env
             """
         }
     }
