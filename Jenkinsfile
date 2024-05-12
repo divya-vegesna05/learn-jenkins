@@ -4,6 +4,9 @@ pipeline{
         label 'agent-1'
     }
     }
+    environment { 
+        greeting = "good morning baby"
+    }
     stages{
          stage("hello")
          {
@@ -23,7 +26,10 @@ pipeline{
     {
         steps{
              
+            sh """
             echo "good morning divya"
+            echo env
+            """
         }
     }
 }
